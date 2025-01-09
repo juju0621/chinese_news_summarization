@@ -20,7 +20,7 @@ bash ./run_train.sh
 bash ./run_test.sh <data file> <output file>
 ```
 # Acknowledgement
-Hugging Face repo:
-[https://github.com/huggingface/transformers](https://github.com/huggingface/transformers)
-ADL TA Team:
+Hugging Face repo:<br>
+[https://github.com/huggingface/transformers](https://github.com/huggingface/transformers)<br>
+ADL TA Team:<br>
 [https://github.com/deankuo/ADL24-HW2](https://github.com/deankuo/ADL24-HW2)
