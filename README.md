@@ -1,1 +1,1 @@
-# chinese_news_summarization
+# Chinese News Summarization
