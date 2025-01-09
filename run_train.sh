@@ -1,0 +1,18 @@
+python3 train.py \
+        --train_file "./data/train.jsonl"\
+        --max_source_length 256 \
+        --max_target_length 64 \
+        --num_beams 5 \
+        --pad_to_max_length \
+        --model_name_or_path "google/mt5-small" \
+        --text_column  "maintext" \
+        --summary_column "title" \
+        --per_device_train_batch_size 1 \
+        --learning_rate 3e-4 \
+        --weight_decay 1e-4 \
+        --num_train_epochs 10 \
+        --gradient_accumulation_steps 4 \
+        --lr_scheduler_type "linear" \
+        --num_warmup_steps 300 \
+        --strategy "beam" \
+        --output_dir "output_dir_test"
